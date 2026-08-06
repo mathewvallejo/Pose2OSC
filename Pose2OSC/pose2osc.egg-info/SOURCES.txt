@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+pose2osc/__init__.py
+pose2osc/cli.py
+pose2osc/features.py
+pose2osc/live.py
+pose2osc/recognizer.py
+pose2osc.egg-info/PKG-INFO
+pose2osc.egg-info/SOURCES.txt
+pose2osc.egg-info/dependency_links.txt
+pose2osc.egg-info/entry_points.txt
+pose2osc.egg-info/requires.txt
+pose2osc.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_features.py
+tests/test_live.py
+tests/test_recognizer.py

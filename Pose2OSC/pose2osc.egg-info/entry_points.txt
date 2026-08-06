@@ -1,0 +1,2 @@
+[console_scripts]
+pose2osc = pose2osc.cli:main
