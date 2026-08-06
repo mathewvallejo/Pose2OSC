@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pose2osc"
+version = "0.1.0"
+description = "Lightweight live MediaPipe gesture enrollment and OSC runtime for Max/MSP."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Pose2OSC Contributors" }
+]
+dependencies = []
+
+[project.optional-dependencies]
+live = [
+  "numpy<2",
+  "mediapipe>=0.10",
+  "opencv-python>=4.8",
+  "python-osc>=1.8"
+]
+dev = []
+
+[project.scripts]
+pose2osc = "pose2osc.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["pose2osc*"]
