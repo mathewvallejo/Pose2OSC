@@ -1,8 +1,0 @@
-
-[dev]
-
-[live]
-numpy<2
-mediapipe>=0.10
-opencv-python>=4.8
-python-osc>=1.8
